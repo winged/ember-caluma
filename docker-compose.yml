@@ -21,7 +21,7 @@ services:
       #- MINIO_STORAGE_ENDPOINT=localhost:9000
 
   minio:
-      image: minio/minio:latest@sha256:eec714a5c50799ae70004fcd3f5d54bd63a759ecaf0033eeb4e2906c18270133
+      image: minio/minio:latest@sha256:cd6a1842b3b7bac1a06571bf0e3aab061b2c800ea2ace6b73a2b8687914e25a3
       volumes:
         - minio_data:/data
       ports:
